@@ -1,0 +1,59 @@
+@media only screen and (max-width: 375px) {
+  .panel {
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .logoContainer {
+    width: 70%;
+  }
+
+  .cardContainer {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .shopTitle {
+    height: 100%;
+    width: 85%;
+  }
+
+  .mobileTitle {
+    display: none;
+  }
+
+  .shopImage {
+    width: 45%;
+  }
+
+  .card {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  .contactCardContainer {
+    flex-direction: column;
+  }
+
+  .large {
+    font-size: 25px;
+  }
+
+  .medium {
+    font-size: 14px;
+  }
+
+  .button {
+    background-color: #5a5a5d;
+    color: #fff;
+    border-radius: 5px;
+    width: 8rem;
+    height: 3rem;
+    font-size: larger;
+  }
+}
